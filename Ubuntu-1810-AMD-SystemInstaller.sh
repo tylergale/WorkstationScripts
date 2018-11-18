@@ -25,7 +25,7 @@ sudo apt update && sudo apt install ukuu lutris gnome-tweak-tool mesa-vulkan-dri
 sudo apt install --install-recommends winehq-staging -y
 sudo apt dist-upgrade -y
 # Lets update some configurations for Esync wine builds
-sudo echo "DefaultLimitNOFILE=1048576" >> /etc/systemd/system.conf
-sudo echo "DefaultLimitNOFILE=1048576" >> /etc/systemd/user.conf
+# sudo echo "DefaultLimitNOFILE=1048576" >> /etc/systemd/system.conf
+# sudo echo "DefaultLimitNOFILE=1048576" >> /etc/systemd/user.conf
 echo "You need to restart your machine now, because we are all done here"
 
